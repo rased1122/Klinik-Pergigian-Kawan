@@ -2,7 +2,8 @@
 <html lang="en">
 
 <head> 
-	<method ="post" action="connect.php">
+	$sql = "SELECT * FROM klinik pergigian kawan";
+$result = $conn->query($sql);
     <meta charset="utf-8">
     <title>DentCare - Dental Clinic Website Template</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
